@@ -19,7 +19,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Lsw\DoctrinePdoDblib\Doctrine\DBAL\Driver\PDODblib;
+namespace Improvein\DoctrinePdoDblib\Doctrine\DBAL\Driver\PDODblib;
 
 /**
  * The PDO-based Dblib driver.
@@ -65,8 +65,8 @@ class Driver implements \Doctrine\DBAL\Driver {
     }
 
     public function getDatabasePlatform() {
-        if (class_exists('\\Lsw\\DoctrinePdoDblib\\Doctrine\\Platforms\\SQLServer2008Platform')) {
-            return new \Lsw\DoctrinePdoDblib\Doctrine\Platforms\SQLServer2008Platform();
+        if (class_exists('\\Improvein\\DoctrinePdoDblib\\Doctrine\\Platforms\\SQLServer2008Platform')) {
+            return new \Improvein\DoctrinePdoDblib\Doctrine\Platforms\SQLServer2008Platform();
         }
         
         if (class_exists('\\Doctrine\\DBAL\\Platforms\\SQLServer2008Platform')) {

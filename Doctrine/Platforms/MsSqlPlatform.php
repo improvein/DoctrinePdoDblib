@@ -18,7 +18,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Lsw\DoctrinePdoDblib\Doctrine\DBAL\Platforms;
+namespace Improvein\DoctrinePdoDblib\Doctrine\DBAL\Platforms;
 
 use Doctrine\DBAL\Schema\TableDiff;
 use Doctrine\DBAL\DBALException;

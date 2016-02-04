@@ -19,7 +19,7 @@
  * <http://www.doctrine-project.org>.
  */
 
-namespace Lsw\DoctrinePdoDblib\Doctrine\DBAL\Driver\PDODblib;
+namespace Improvein\DoctrinePdoDblib\Doctrine\DBAL\Driver\PDODblib;
 
 /**
  * PDODblib Connection implementation.
