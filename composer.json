@@ -1,11 +1,15 @@
 {
-    "name": "leaseweb/doctrine-pdo-dblib",
+    "name": "improvein/doctrine-pdo-dblib",
     "type": "library",
     "description": "Library for support of the pdo_dblib (MSSQL) driver in Doctrine",
     "keywords": ["pdo_dblib","pdo","dblib","mssql","doctrine"],
-    "homepage": "http://www.leaseweblabs.com",
+    "homepage": "http://www.improvein.com",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Diego Gurpegui",
+            "email": "diego.gurpegui@improvein.com"
+        },
         {
             "name": "Tyler Rooney",
             "email": "tyler@tylerrooney.ca"
@@ -25,9 +29,9 @@
         "doctrine/dbal": ">=2.1.0"
     },
     "autoload": {
-        "psr-0": { "Lsw\\DoctrinePdoDblib": "" }
+        "psr-0": { "improvein\\DoctrinePdoDblib": "" }
     },
-    "target-dir": "Lsw/DoctrinePdoDblib",
+    "target-dir": "improvein/DoctrinePdoDblib",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
